@@ -36,7 +36,12 @@
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
+        <div style="width: 100%; overflow: hidden;">
+          <div style="width: 300px; float: left;"> <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a> </div>
+          <div style="margin-left: 320px;"> <a href="images/resume.pdf" download="andy_boutte_resume" class="contact-button no-print" itemprop="email">Download Resume</a> </div>
+        </div>
+
+
         {% elsif site.resume_looking_for_work == 'no' %}
         <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
         {% else %}
@@ -212,18 +217,56 @@
         </header>
 
         <div class="resume-item">
-          <h4 class="resume-item-details">Donut design</h4>
-          <p class="resume-item-copy">Sprinkle art, icing design, eclair management, taste testing, donut/coffee pairing research</p>
+          <h4 class="resume-item-details">AWS</h4>
+          <p class="resume-item-copy">For the last several years I have been working in AWS.  Services that I use on a regular basis include:</p>
+          <ul class="resume-item-list">
+            <li>EC2</li>
+            <li>ELB</li>
+            <li>ASG</li>
+            <li>LC</li>
+            <li>CloudFormation</li>
+            <li>S3</li>
+            <li>DynamoDB</li>
+            <li>ElastiCache</li>
+            <li>Route53</li>
+            <li>VPC</li>
+          </ul>
         </div>
 
         <div class="resume-item">
-          <h4 class="resume-item-details">Craft beer brewing</h4>
-          <p class="resume-item-copy">Hops inspection, brew testing, distribution management, bottle label design, festival and event management</p>
+          <h4 class="resume-item-details">Architecting Cloud Solutions</h4>
+          <p class="resume-item-copy">Design and build fault tolerant application deployments utilizing DevOps tools including Chef and CloudFormation</p>
         </div>
 
         <div class="resume-item">
-          <h4 class="resume-item-details">Family leadership</h4>
-          <p class="resume-item-copy">Bread winning, conflict resolution, couch inspection, TV longevity testing</p>
+          <h4 class="resume-item-details">Lifecycle Management of Deployments</h4>
+          <p class="resume-item-copy">Manage all aspects of production infrastructure including: EC2, OS, web server software, VPNs, DNS, routing, security groups, ACLs</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Colocation to AWS Migrations</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">CI / CD</h4>
+          <p class="resume-item-copy">pipeline using Jenkins, bash, Ruby, Chef, GitHub, and Nexus</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Management of production PCI environment</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Mcrouter</h4>
+          <p class="resume-item-copy">FaceBooks's open source memcached protocol router</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Linux Troubleshooting</h4>
+          <p class="resume-item-copy">Experience using Linux tools to diagnose network and performance issues including wireshark, tshark, nc,
+            vmstat, slabtop, and strace</p>
         </div>
 
       </section>
@@ -320,7 +363,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line"><a href="images/resume.pdf" download="andy_boutte_resume"> Download resume as PDF</a></p>
+        <p class="footer-line"><a href="images/resume.pdf"></a></p>
       </footer>
 
     </div>
