@@ -1,18 +1,7 @@
-- built ELK depployment (single stack or split per service) using terraform and cloudformation and chef
+
 - experience building chef resources
-- terraform
-- bootstrapping with terraform remote-exec
-- puppet with the qualys project
-- logstash-output-s3csv - push aws billing CSVs (split per client) into S3 bucket
-- logstash-input-s3zip - for aws billing data
-- lead for radar project
-- github status check using jenkins
-- owner of radar product
 - storyboarding
-- ntppool operator
-- pipeline for adding images and video to ghost blog
 - post my gpg key / keybase name
-- add ntp pool server
 
 non tech
 - story boarding ideas to present to the rest of the team
