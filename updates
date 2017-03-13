@@ -5,8 +5,6 @@
 - puppet with the qualys project
 - logstash-output-s3csv - push aws billing CSVs (split per client) into S3 bucket
 - logstash-input-s3zip - for aws billing data
-- aws arch associate
-- aws sysops associate
 - lead for radar project
 - github status check using jenkins
 - owner of radar product
@@ -15,8 +13,6 @@
 - pipeline for adding images and video to ghost blog
 - post my gpg key / keybase name
 - add ntp pool server
-
-Make resume website for projects: ntp, 7layer vpc, mcrouter, ghost photo upload
 
 non tech
 - story boarding ideas to present to the rest of the team
