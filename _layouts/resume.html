@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 
+
+
   {% include head.html %}
 
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
@@ -19,7 +21,7 @@
 
         <!-- Contact buttons don't work in print, configure in the _config.yml file, remove "print-only" to display always. -->
         <div class="header-contact-info" itemprop="contact-info">
-          <p>{{ site.resume_header_contact_info }}</p>
+          <p>{{ site.resume_header_location }} | <a style="text-decoration:none;" href="tel:{{ site.resume_header_phone}}">{{ site.resume_header_phone }} </a> | <a style="text-decoration:none;" href="mailto:{{ site.resume_contact_email }}">{{ site.resume_contact_email }}</a></p>
         </div>
 
         <div class="title-bar no-print">
