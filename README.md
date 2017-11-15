@@ -17,6 +17,7 @@ To test locally, run the following in your terminal:
 2. Browse to `localhost:4000`
 3. Command-P
 4. Change Header and Footers to `blank`
-5. Change Center Footer to `Page # of #`
-6. Save as PDF
-7. Add PDF file to this repository at `./images/resume.pdf`
+5. Change right Footer to `Page # of #`
+6. Change left Footer to `Title`
+7. Save as PDF
+8. Add PDF file to this repository at `./images/resume.pdf`
