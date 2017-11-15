@@ -21,8 +21,10 @@
 
         <!-- Contact buttons don't work in print, configure in the _config.yml file, remove "print-only" to display always. -->
         <div class="header-contact-info" itemprop="contact-info">
-          <p>{{ site.resume_header_location }} | <a style="text-decoration:none;" href="tel:{{ site.resume_header_phone}}">{{ site.resume_header_phone }} </a> | <a style="text-decoration:none;" href="mailto:{{ site.resume_contact_email }}">{{ site.resume_contact_email }}</a></p>
+          <p><a style="text-decoration:none;" href="https://www.google.com/maps/place/Cedar+Rapids,+IA" target="_blank">{{ site.resume_header_location }}</a> | <a style="text-decoration:none;" href="tel:{{ site.resume_header_phone}}">{{ site.resume_header_phone }} </a> | <a style="text-decoration:none;" href="mailto:{{ site.resume_contact_email }}">{{ site.resume_contact_email }}</a></p>
         </div>
+
+
 
         <div class="title-bar no-print">
 
@@ -34,7 +36,8 @@
         </div>
 
         <div class="executive-summary no-print" itemprop="description">
-          <p>Enjoys utilizing infrastructure as code and configuration management automation to solve problems.  Works well in a multitasking environment, and as a team member. Known as the “go to” person for technological advice and problem solving.  Committed to a career in DevOps to further my knowledge and experience in this exciting industry.</p>
+          <p>
+            Passionate AWS and Linux professional that enjoys utilizing infrastructure as code and configuration management automation to solve problems. Works well in a multitasking environment, under pressure, and as a team member. Known as the “go to” person for technological advice and problem solving. Looking for a challenging career in DevOps to advance knowledge and utilize existing skills in this exciting industry.</p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -61,7 +64,20 @@
 
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">REAN Cloud</h3>
-          <h4 class="resume-item-details" itemprop="description">Senior Cloud Engineer &bull; June 2016 - Present</h4>
+          <h4 class="resume-item-details" itemprop="description">Cloud Architect &bull; January 2017 - Present</h4>
+          <p class="resume-item-copy">Assigned to DoD project as a Cloud Architect to lead the networking, logging, metric collection, and monitoring effort.
+            Collected client requirements, architected solutions, and worked with engineers to automate the deployments.</p>
+          <p><h4 class="resume-item-details" itemprop="description">Key Accomplishments:</h4></p>
+          <ul class="resume-item-list">
+            <li>AWS log aggregation solution</li>
+            <li>Customized RBAC solution for ELK stack</li>
+            <li>Hub and spoke transit VPC deployment with backhaul to DoD datacenter</li>
+            <li>Assisted with STIGing, scanning and remediation to meet DoD standards</li>
+          </ul>
+        </div>
+
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h4 class="resume-item-details" itemprop="description">Senior Cloud Engineer &bull; June 2016 - January 2017</h4>
           <p class="resume-item-copy">Lead an international DevOps team that built the company's first product.  Utilized standard DevOps tools including: Chef, CloudFormation, Terraform, git, and Jenkins to create an environment where we collaborated and worked toward an end goal.  As the architect, product owner, and technical lead on the project, I balanced time between training resources on the team, unblocking resources on the current tasks, and planning for the future sprints.</p>
           <p><h4 class="resume-item-details" itemprop="description">Key Accomplishments:</h4></p>
           <ul class="resume-item-list">
@@ -235,8 +251,8 @@
         </div>
 
         <div class="resume-item">
-          <h4 class="skills-resume-item-details">Transit VPC</h4>
-          <p class="resume-item-copy">Architect and implement transit VPCs with Palo Alto and Sophos.</p>
+          <h4 class="skills-resume-item-details">Virtual Router</h4>
+          <p class="resume-item-copy">Solid experience using Sophos, Palo Alto, and Cisco CSR for routing, firewall, and VPNs.</p>
         </div>
 
         <div class="resume-item">
@@ -256,7 +272,7 @@
 
         <div class="resume-item">
           <h4 class="skills-resume-item-details">Management of production PCI environment</h4>
-          <p class="resume-item-copy">Migrated a production credit card processesing environment from colocation to AWS and facilitated PCI audit.</p>
+          <p class="resume-item-copy">Migrated a production credit card processing environment from colocation to AWS and facilitated PCI audit.</p>
         </div>
 
         <div class="resume-item">
