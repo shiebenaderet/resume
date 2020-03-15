@@ -26,16 +26,18 @@
 
 
 
-        <div class="title-bar no-print">
+        <div class="title-bar">
 
           <!-- Your title is also defined in the _config.yml file -->
           <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
 
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
-          {% include icon-links.html %}
+          <div class="title-bar-icons no-print">
+            {% include icon-links.html %}
+          </div>
         </div>
 
-        <div class="executive-summary no-print" itemprop="description">
+        <div class="executive-summary" itemprop="description">
           <p>Dedicated Cloud Architect, Cloud Engineer and IT Professional providing over four years of professional experience in technical leadership, strategic planning, cloud services, data center services, and networking. Thrives on seemingly impossible, challenging projects in a collaborative, fast-paced environment while offering a strong aptitude and demonstrated success in effective team management, data analytics, risk management, and innovative solutions. Highly regarded for his ability to interpret data into actionable information and a critical thinking mindset. Looking forward to accepting a new challenge and work with talented, passionate, dedicated people who are as motivated as I am to solving the next problem.</p>
         </div>
 
@@ -61,9 +63,22 @@
           <h2>Experience</h2>
         </header>
 
+          <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Hitachi Vantara</h3>
+          <h4 class="resume-item-details" itemprop="description">Product Owner &bull; October 2018 - Present</h4>
+          <p class="resume-item-copy">Assigned to Department of Defense project as a Cloud Architect to lead the networking, logging, metric collection, and monitoring effort. Accumulated client requirements, architected solutions, and worked with engineers to automate the solutions.</p>
+          <p><h4 class="resume-item-details" itemprop="description">Key Accomplishments:</h4></p>
+          <ul class="resume-item-list">
+            <li>AWS log aggregation solution</li>
+            <li>Customized RBAC solution for ELK stack</li>
+            <li>Hub and spoke transit VPC deployment based on Department of Defense Secure Cloud Computing Architecture (SCCA) architecture</li>
+            <li>Assisted with STIGing, scanning and remediation to meet client standards</li>
+          </ul>
+        </div>
+
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">Hitachi Vantara / REAN Cloud</h3>
-          <h4 class="resume-item-details" itemprop="description">Cloud Architect &bull; January 2017 - Present</h4>
+          <h4 class="resume-item-details" itemprop="description">Cloud Architect &bull; October 2017 - September 2018</h4>
           <p class="resume-item-copy">Assigned to Department of Defense project as a Cloud Architect to lead the networking, logging, metric collection, and monitoring effort. Accumulated client requirements, architected solutions, and worked with engineers to automate the solutions.</p>
           <p><h4 class="resume-item-details" itemprop="description">Key Accomplishments:</h4></p>
           <ul class="resume-item-list">
@@ -312,7 +327,13 @@
           <h2>Certifications</h2>
         </header>
 
-                <div class="resume-item">
+        <div class="resume-item">
+          <h3 class="resume-item-title">Microsoft Certified: Azure Fundamentals</h3>
+          <!--<h4 class="resume-item-details"></h4>-->
+          <p class="resume-item-copy">November 22, 2019</p>
+        </div>
+
+        <div class="resume-item">
           <h3 class="resume-item-title">AWS Certified Cloud Practitioner</h3>
           <!--<h4 class="resume-item-details"></h4>-->
           <p class="resume-item-copy">K78SD4Y21MEE1ZWC &bull; August 31, 2018 - August 31, 2020</p>
