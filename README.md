@@ -39,9 +39,10 @@ To test locally, run the following in your terminal:
 
 
 - things to add to resume
--- New Palo Alto network design
+-- New Palo Alto network design (hub and spike VDSS)
 -- offline testing environment
 -- built up 6 scrum teams 
+- custom SAFE process for 10 scrum teams
 
 
 
