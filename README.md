@@ -26,18 +26,6 @@ To test locally, run the following in your terminal:
 
 # Todo
 
-
-- update the header so that it gets added into the pdf
--- remove no-print from title-bar
--- add the following so the icons dont show up during print
-
-<div class="title-bar-icons no-print">
-{% include icon-links.html %}
-</div>
-
-
-
-
 - things to add to resume
 -- New Palo Alto network design (hub and spike VDSS)
 -- offline testing environment

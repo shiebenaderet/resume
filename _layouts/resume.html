@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-
-
   {% include head.html %}
 
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
@@ -38,8 +36,9 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          <p>Dedicated Cloud Architect, Cloud Engineer and IT Professional providing over four years of professional experience in technical leadership, strategic planning, cloud services, data center services, and networking. Thrives on seemingly impossible, challenging projects in a collaborative, fast-paced environment while offering a strong aptitude and demonstrated success in effective team management, data analytics, risk management, and innovative solutions. Highly regarded for his ability to interpret data into actionable information and a critical thinking mindset. Looking forward to accepting a new challenge and work with talented, passionate, dedicated people who are as motivated as I am to solving the next problem.</p>
         </div>
+
+          <p class="resume-item-copy">Dedicated Cloud Architect, Cloud Engineer and IT Professional providing over four years of professional experience in technical leadership, strategic planning, cloud services, data center services, and networking. Thrives on seemingly impossible, challenging projects in a collaborative, fast-paced environment while offering a strong aptitude and demonstrated success in effective team management, data analytics, risk management, and innovative solutions. Highly regarded for his ability to interpret data into actionable information and a critical thinking mindset. Looking forward to accepting a new challenge and work with talented, passionate, dedicated people who are as motivated as I am to solving the next problem.</p>
 
         {% if site.resume_looking_for_work == 'yes' %}
         <div style="width: 100%; overflow: hidden;">
@@ -199,12 +198,6 @@
           <h2>Projects</h2>
         </header>
 
-        <div class="resume-item">
-          <h3 class="resume-item-title">NTP Pool Project</h3>
-          <h4 class="resume-item-details">NTP Server Operator</h4>
-          <p class="resume-item-copy">The <a href="http://www.pool.ntp.org/en/">NTP Pool Project</a> is the largest organization of NTP servers in the world and is used by millions of systems worldwide.  To give back to the NTP Pool community I donate a <a href="http://www.pool.ntp.org/scores/52.37.145.131">server</a> that is apart of the NTP Pool.  I also created a <a href="https://github.com/aboutte/ntppool_deployment">turn key solution</a> for deploying a NTP server in AWS.</p>
-        </div>
-
         <!--<div class="resume-item">-->
           <!--<h3 class="resume-item-title">Ghost Media Upload</h3>-->
           <!--<h4 class="resume-item-details">Open source pipeline for upload media to Ghost blog</h4>-->
@@ -311,14 +304,20 @@
 
         <div class="resume-item">
           <h3 class="resume-item-title" itemprop="award">Prairie Patch Farm LLC</h3>
-          <h4 class="resume-item-details">01/2020</h4>
-          <p class="resume-item-copy"><a href="https://www.prairiepatchfarm.com" target="_blank">Prairie Patch Farm</a> offers llama services to our community including: guided llama hikes, llama grams, llama birthday parties, llama weddings.</p>
+          <h4 class="resume-item-details">01/2020 - Present</h4>
+          <p class="resume-item-copy"><a href="https://www.prairiepatchfarm.com" target="_blank">Prairie Patch Farm</a> offers llama services to our community including: guided llama hikes, llama grams, llama birthday parties, llama weddings, llama zooms.</p>
         </div>
 
         <div class="resume-item">
           <h3 class="resume-item-title" itemprop="award">SKYWARN®</h3>
           <h4 class="resume-item-details">05/2020</h4>
-          <p class="resume-item-copy">SKYWARN® spotter for the National Weather Service Quad Cities</p>
+          <p class="resume-item-copy">After moving from the west coast to the mid-west I have developed an interest in weather.  I volunteer for the National Weather Service in the Quad Cities as a SKYWARN® spotter.</p>
+        </div>
+
+        <div class="resume-item">
+          <h3 class="resume-item-title">NTP Pool Project</h3>
+          <h4 class="resume-item-details">NTP Server Operator</h4>
+          <p class="resume-item-copy">The <a href="http://www.pool.ntp.org/en/">NTP Pool Project</a> is the largest organization of NTP servers in the world and is used by millions of systems worldwide.  To give back to the NTP Pool community I donate a <a href="http://www.pool.ntp.org/scores/52.37.145.131">server</a> that is apart of the NTP Pool.  I also created a <a href="https://github.com/aboutte/ntppool_deployment">turn key solution</a> for deploying a NTP server in AWS.</p>
         </div>
 
         <!-- <div class="resume-item">
