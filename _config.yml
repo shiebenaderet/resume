@@ -9,7 +9,7 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "false"
+resume_avatar:                  "true"
 resume_name:                    "Shie Benaderet"
 resume_title:                   "Teacher & Educational Technology Leader"
 resume_contact_email:           "shiebenaderet@outlook.com"
