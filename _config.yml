@@ -1,5 +1,5 @@
 # Site settings
-title: "Andy Boutte"
+title: "Shie Benaderet"
 description: "A resume template for Jekyll and GitHub Pages sites."
 
 # Build settings
@@ -9,12 +9,12 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "false"
-resume_name:                    "Andy Boutte"
-resume_title:                   "Product Owner / Cloud Architect"
-resume_contact_email:           "andyboutte@gmail.com"
-resume_header_location:         "Cedar Rapids, Iowa"
-resume_header_phone:            "805-234-7399"
+resume_avatar:                  "true"
+resume_name:                    "Shie Benaderet"
+resume_title:                   "Teacher & Educational Technology Leader"
+resume_contact_email:           "shiebenaderet@outlook.com"
+resume_header_location:         "Mill Creek, WA"
+resume_header_phone:            "425-212-1912"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -28,18 +28,18 @@ resume_section_experience:      true
 # resume_section_education:       true
 #resume_section_projects:        true
 resume_section_skills:          true
-resume_section_recognition:     true
+#resume_section_recognition:     true
 # resume_section_links:           true
-resume_section_associations:    true # certifications
+#resume_section_associations:    true # certifications
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/aboutte"
-  # resume_twitter_url:           "http://twitter.com/jglovier"
+  #resume_github_url:            "https://github.com/shiebenaderet"
+  resume_twitter_url:           "http://twitter.com/shie"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/aboutte"
+  resume_linkedin_url:          "https://www.linkedin.com/in/shiebenaderet"
   # resume_instagram_url:         "insert your Instagram URL here"
   # resume_website_url:           "http://joelglovier.com"
 resume_print_social_links:      true
