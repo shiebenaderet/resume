@@ -1,6 +1,8 @@
 # resume-template
 
-*A simple Jekyll + GitHub Pages powered resume template.*
+*A simple Jekyll + GitHub Pages powered resume template.* 
+
+> I'm playing around with GitHub and decided to post my resume here.
 
 # Running locally
 
@@ -10,7 +12,6 @@ To test locally, run the following in your terminal:
 1. `bundle install`
 2. `bundle exec jekyll serve`
 3. Open your browser to `localhost:4000`
-4. Spell check `lynx -dump http://localhost:4000 | grep -v -E 'http|tel:|mailto' | aspell --add-extra-dicts=./resume.pws list`
 
 # Generating new PDF
 
